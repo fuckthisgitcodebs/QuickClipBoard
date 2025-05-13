@@ -1,0 +1,3149 @@
+<TaskerData sr="" dvi="1" tv="6.2.25-rc">
+	<Project sr="proj0" ve="2">
+		<cdate>1715328000000</cdate>
+		<name>QuickClipBoard</name>
+		<pids>999</pids>
+		<tids>1,2,3,4,5,6,7,8,9,10,11,12</tids> <!-- Placeholder Task IDs, will adjust as tasks are fully defined -->
+		<scenes>SCB_Scene</scenes>
+	</Project>
+	<Profile sr="prof_cw_QuickClipBoard_Launcher" ve="2">
+		<cdate>1715328001000</cdate>
+		<clp>true</clp>
+		<edate>1715328001000</edate>
+		<flags>40</flags>
+		<id>999</id>
+		<mid0>1</mid0> <!-- Assumes Task ID 1 is SCB_01_Show_Scene -->
+		<nme>Launch QuickClipBoard</nme>
+		<Event sr="con0" ve="2">
+			<code>2091</code>
+			<pri>0</pri>
+			<Bundle sr="arg0" ve="1">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr="relevant_variables"&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%evtprm1
+Full command string
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">LAUNCH_QUICKCLIPBOARD</Str>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Event>
+	</Profile>
+	<Scene sr="sceneSCB_Scene" ve="2">
+		<cdate>1715328002000</cdate>
+		<edate>1715328002000</edate>
+		<geom>0,0,600,625,600,625</geom>
+		<nme>SCB_Scene</nme>
+		<Properties sr="propsscn" ve="2">
+			<Absh>625</Absh>
+			<Absw>600</Absw>
+			<BckCol>#FF222222</BckCol>
+			<CSzA>Spn</CSzA>
+			<CSzB>Spn</CSzB>
+			<Orientation>System</Orientation>
+			<states>0,0,0,0,0,0,0,0,0,0</states>
+		</Properties>
+		<Elements>
+			<Element sr="elements0" ve="2">
+				<flags>4</flags>
+				<geom>0,0,150,156,0,0,150,156</geom>
+				<nme>MainBtn1</nme>
+				<type>BUTTON</type>
+				<Value sr="val">
+					<Label>Set Btn 1</Label>
+					<LabCol>#FFFFFFFF</LabCol>
+					<LabSz>16</LabSz>
+					<BackCol>#FFDDDDDD</BackCol>
+					<TextCol>#FF888888</TextCol>
+				</Value>
+				<Events>
+					<Event sr="tap" ve="2">
+						<Name>Tap</Name>
+						<Pri>100</Pri>
+						<Action sr="act0" ve="7">
+							<code>130</code>
+							<Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+							<Int sr="arg1" val="100"/>
+							<Str sr="arg2" ve="3">MainBtn1</Str>
+							<Str sr="arg3" ve="3"/>
+							<Str sr="arg4" ve="3"/>
+							<Int sr="arg5" val="0"/>
+							<Int sr="arg6" val="0"/>
+							<Str sr="arg7" ve="3"/>
+							<Int sr="arg8" val="0"/>
+							<Int sr="arg9" val="0"/>
+							<Int sr="arg10" val="0"/>
+						</Action>
+					</Event>
+					<Event sr="longtap" ve="2">
+						<Name>Long Tap</Name>
+						<Pri>100</Pri>
+						<Action sr="act0" ve="7">
+							<code>130</code>
+							<Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+							<Int sr="arg1" val="100"/>
+							<Str sr="arg2" ve="3">MainBtn1</Str>
+							<Str sr="arg3" ve="3"/>
+							<Str sr="arg4" ve="3"/>
+							<Int sr="arg5" val="0"/>
+							<Int sr="arg6" val="0"/>
+							<Str sr="arg7" ve="3"/>
+							<Int sr="arg8" val="0"/>
+							<Int sr="arg9" val="0"/>
+							<Int sr="arg10" val="0"/>
+						</Action>
+					</Event>
+				</Events>
+			</Element>
+			<Element sr="elements1" ve="2">
+				<flags>4</flags>
+				<geom>150,0,150,156,150,0,150,156</geom>
+				<nme>MainBtn2</nme>
+				<type>BUTTON</type>
+				<Value sr="val">
+					<Label>Set Btn 2</Label>
+					<LabCol>#FFFFFFFF</LabCol>
+					<LabSz>16</LabSz>
+					<BackCol>#FFDDDDDD</BackCol>
+					<TextCol>#FF888888</TextCol>
+				</Value>
+				<Events>
+					<Event sr="tap" ve="2">
+						<Name>Tap</Name>
+						<Pri>100</Pri>
+						<Action sr="act0" ve="7">
+							<code>130</code>
+							<Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+							<Int sr="arg1" val="100"/>
+							<Str sr="arg2" ve="3">MainBtn2</Str>
+							<Str sr="arg3" ve="3"/>
+							<Str sr="arg4" ve="3"/>
+							<Int sr="arg5" val="0"/>
+							<Int sr="arg6" val="0"/>
+							<Str sr="arg7" ve="3"/>
+							<Int sr="arg8" val="0"/>
+							<Int sr="arg9" val="0"/>
+							<Int sr="arg10" val="0"/>
+						</Action>
+					</Event>
+					<Event sr="longtap" ve="2">
+						<Name>Long Tap</Name>
+						<Pri>100</Pri>
+						<Action sr="act0" ve="7">
+							<code>130</code>
+							<Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+							<Int sr="arg1" val="100"/>
+							<Str sr="arg2" ve="3">MainBtn2</Str>
+							<Str sr="arg3" ve="3"/>
+							<Str sr="arg4" ve="3"/>
+							<Int sr="arg5" val="0"/>
+							<Int sr="arg6" val="0"/>
+							<Str sr="arg7" ve="3"/>
+							<Int sr="arg8" val="0"/>
+							<Int sr="arg9" val="0"/>
+							<Int sr="arg10" val="0"/>
+						</Action>
+					</Event>
+				</Events>
+			</Element>
+			<Element sr="elements2" ve="2">
+				<flags>4</flags>
+				<geom>300,0,150,156,300,0,150,156</geom>
+				<nme>MainBtn3</nme>
+				<type>BUTTON</type>
+				<Value sr="val">
+					<Label>Set Btn 3</Label>
+					<LabCol>#FFFFFFFF</LabCol>
+					<LabSz>16</LabSz>
+					<BackCol>#FFDDDDDD</BackCol>
+					<TextCol>#FF888888</TextCol>
+				</Value>
+				<Events>
+					<Event sr="tap" ve="2">
+						<Name>Tap</Name>
+						<Pri>100</Pri>
+						<Action sr="act0" ve="7">
+							<code>130</code>
+							<Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+							<Int sr="arg1" val="100"/>
+							<Str sr="arg2" ve="3">MainBtn3</Str>
+							<Str sr="arg3" ve="3"/>
+							<Str sr="arg4" ve="3"/>
+							<Int sr="arg5" val="0"/>
+							<Int sr="arg6" val="0"/>
+							<Str sr="arg7" ve="3"/>
+							<Int sr="arg8" val="0"/>
+							<Int sr="arg9" val="0"/>
+							<Int sr="arg10" val="0"/>
+						</Action>
+					</Event>
+					<Event sr="longtap" ve="2">
+						<Name>Long Tap</Name>
+						<Pri>100</Pri>
+						<Action sr="act0" ve="7">
+							<code>130</code>
+							<Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+							<Int sr="arg1" val="100"/>
+							<Str sr="arg2" ve="3">MainBtn3</Str>
+							<Str sr="arg3" ve="3"/>
+							<Str sr="arg4" ve="3"/>
+							<Int sr="arg5" val="0"/>
+							<Int sr="arg6" val="0"/>
+							<Str sr="arg7" ve="3"/>
+							<Int sr="arg8" val="0"/>
+							<Int sr="arg9" val="0"/>
+							<Int sr="arg10" val="0"/>
+						</Action>
+					</Event>
+				</Events>
+			</Element>
+			<Element sr="elements3" ve="2">
+				<flags>4</flags>
+				<geom>450,0,150,156,450,0,150,156</geom>
+				<nme>MainBtn4</nme>
+				<type>BUTTON</type>
+				<Value sr="val">
+					<Label>Set Btn 4</Label>
+					<LabCol>#FFFFFFFF</LabCol>
+					<LabSz>16</LabSz>
+					<BackCol>#FFDDDDDD</BackCol>
+					<TextCol>#FF888888</TextCol>
+				</Value>
+				<Events>
+					<Event sr="tap" ve="2">
+						<Name>Tap</Name>
+						<Pri>100</Pri>
+						<Action sr="act0" ve="7">
+							<code>130</code>
+							<Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+							<Int sr="arg1" val="100"/>
+							<Str sr="arg2" ve="3">MainBtn4</Str>
+							<Str sr="arg3" ve="3"/>
+							<Str sr="arg4" ve="3"/>
+							<Int sr="arg5" val="0"/>
+							<Int sr="arg6" val="0"/>
+							<Str sr="arg7" ve="3"/>
+							<Int sr="arg8" val="0"/>
+							<Int sr="arg9" val="0"/>
+							<Int sr="arg10" val="0"/>
+						</Action>
+					</Event>
+					<Event sr="longtap" ve="2">
+						<Name>Long Tap</Name>
+						<Pri>100</Pri>
+						<Action sr="act0" ve="7">
+							<code>130</code>
+							<Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+							<Int sr="arg1" val="100"/>
+							<Str sr="arg2" ve="3">MainBtn4</Str>
+							<Str sr="arg3" ve="3"/>
+							<Str sr="arg4" ve="3"/>
+							<Int sr="arg5" val="0"/>
+							<Int sr="arg6" val="0"/>
+							<Str sr="arg7" ve="3"/>
+							<Int sr="arg8" val="0"/>
+							<Int sr="arg9" val="0"/>
+							<Int sr="arg10" val="0"/>
+						</Action>
+					</Event>
+				</Events>
+			</Element>
+			<Element sr="elements4" ve="2">
+            <flags>4</flags>
+            <geom>0,156,150,312,0,156,150,156</geom>
+            <nme>MainBtn5</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 5</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn5</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn5</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements5" ve="2">
+            <flags>4</flags>
+            <geom>150,156,300,312,150,156,150,156</geom>
+            <nme>MainBtn6</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 6</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn6</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn6</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements6" ve="2">
+            <flags>4</flags>
+            <geom>300,156,450,312,300,156,150,156</geom>
+            <nme>MainBtn7</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 7</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn7</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn7</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements7" ve="2">
+            <flags>4</flags>
+            <geom>450,156,600,312,450,156,150,156</geom>
+            <nme>MainBtn8</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 8</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn8</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn8</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+          <Element sr="elements8" ve="2">
+            <flags>4</flags>
+            <geom>0,312,150,468,0,312,150,156</geom>
+            <nme>MainBtn9</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 9</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn9</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn9</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements9" ve="2">
+            <flags>4</flags>
+            <geom>150,312,300,468,150,312,150,156</geom>
+            <nme>MainBtn10</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 10</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn10</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn10</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements10" ve="2">
+            <flags>4</flags>
+            <geom>300,312,450,468,300,312,150,156</geom>
+            <nme>MainBtn11</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 11</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn11</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn11</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements11" ve="2">
+            <flags>4</flags>
+            <geom>450,312,600,468,450,312,150,156</geom>
+            <nme>MainBtn12</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 12</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn12</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn12</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements12" ve="2">
+            <flags>4</flags>
+            <geom>0,468,150,624,0,468,150,156</geom>
+            <nme>MainBtn13</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 13</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn13</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn13</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements13" ve="2">
+            <flags>4</flags>
+            <geom>150,468,300,624,150,468,150,156</geom>
+            <nme>MainBtn14</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 14</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn14</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn14</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements14" ve="2">
+            <flags>4</flags>
+            <geom>300,468,450,624,300,468,150,156</geom>
+            <nme>MainBtn15</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 15</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn15</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn15</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements15" ve="2">
+            <flags>4</flags>
+            <geom>450,468,600,624,450,468,150,156</geom>
+            <nme>MainBtn16</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>Btn 16</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFDDDDDD</BackCol>
+                <TextCol>#FF888888</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn16</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_11_Main_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">MainBtn16</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+
+        <!-- Remaining MainBtn elements (5-16) will follow a similar pattern -->
+        	<!-- SubBtn elements (1-16) will follow here, initially hidden -->
+        <!-- SubMenu Buttons Layer - Initially Hidden (flags=5 includes hidden) -->
+        <Element sr="elements16" ve="2">
+            <flags>5</flags>
+            <geom>0,0,150,156,0,0,150,156</geom>
+            <nme>SubBtn1</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label>⬅ Back</Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FFFF9900</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn1</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <!-- No long tap for "Back" button -->
+            </Events>
+        </Element>
+        <Element sr="elements17" ve="2">
+            <flags>5</flags>
+            <geom>150,0,300,156,150,0,150,156</geom>
+            <nme>SubBtn2</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label> <!-- Label set dynamically -->
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol> <!-- Submenu Clip Button Color -->
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn2</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn2</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements18" ve="2">
+            <flags>5</flags>
+            <geom>300,0,450,156,300,0,150,156</geom>
+            <nme>SubBtn3</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn3</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn3</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+		<Element sr="elements19" ve="2">
+            <flags>5</flags>
+            <geom>450,0,600,156,450,0,150,156</geom>
+            <nme>SubBtn4</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn4</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn4</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements20" ve="2">
+            <flags>5</flags>
+            <geom>0,156,150,312,0,156,150,156</geom>
+            <nme>SubBtn5</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn5</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn5</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements21" ve="2">
+            <flags>5</flags>
+            <geom>150,156,300,312,150,156,150,156</geom>
+            <nme>SubBtn6</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn6</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn6</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements22" ve="2">
+            <flags>5</flags>
+            <geom>300,156,450,312,300,156,150,156</geom>
+            <nme>SubBtn7</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn7</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn7</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements23" ve="2">
+            <flags>5</flags>
+            <geom>450,156,600,312,450,156,150,156</geom>
+            <nme>SubBtn8</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn8</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn8</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements24" ve="2">
+            <flags>5</flags>
+            <geom>0,312,150,468,0,312,150,156</geom>
+            <nme>SubBtn9</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn9</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn9</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements25" ve="2">
+            <flags>5</flags>
+            <geom>150,312,300,468,150,312,150,156</geom>
+            <nme>SubBtn10</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn10</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn10</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements26" ve="2">
+            <flags>5</flags>
+            <geom>300,312,450,468,300,312,150,156</geom>
+            <nme>SubBtn11</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn11</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn11</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements27" ve="2">
+            <flags>5</flags>
+            <geom>450,312,600,468,450,312,150,156</geom>
+            <nme>SubBtn12</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn12</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn12</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements28" ve="2">
+            <flags>5</flags>
+            <geom>0,468,150,624,0,468,150,156</geom>
+            <nme>SubBtn13</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn13</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn13</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements29" ve="2">
+            <flags>5</flags>
+            <geom>150,468,300,624,150,468,150,156</geom>
+            <nme>SubBtn14</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn14</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn14</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements30" ve="2">
+            <flags>5</flags>
+            <geom>300,468,450,624,300,468,150,156</geom>
+            <nme>SubBtn15</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn15</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn15</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        <Element sr="elements31" ve="2">
+            <flags>5</flags>
+            <geom>450,468,600,624,450,468,150,156</geom>
+            <nme>SubBtn16</nme>
+            <type>BUTTON</type>
+            <Value sr="val">
+                <Label></Label>
+                <LabCol>#FFFFFFFF</LabCol>
+                <LabSz>16</LabSz>
+                <BackCol>#FF6699FF</BackCol>
+                <TextCol>#FFFFFFFF</TextCol>
+            </Value>
+            <Events>
+                <Event sr="tap" ve="2">
+                    <Name>Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_20_Sub_Btn_Tap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn16</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+                <Event sr="longtap" ve="2">
+                    <Name>Long Tap</Name>
+                    <Pri>100</Pri>
+                    <Action sr="act0" ve="7">
+                        <code>130</code>
+                        <Str sr="arg0" ve="3">SCB_21_Sub_Btn_LongTap</Str>
+                        <Int sr="arg1" val="10"/>
+                        <Str sr="arg2" ve="3">SubBtn16</Str>
+                        <Str sr="arg3" ve="3"/>
+                        <Str sr="arg4" ve="3"/>
+                        <Int sr="arg5" val="0"/>
+                        <Int sr="arg6" val="0"/>
+                        <Str sr="arg7" ve="3"/>
+                        <Int sr="arg8" val="0"/>
+                        <Int sr="arg9" val="0"/>
+                    </Action>
+                </Event>
+            </Events>
+        </Element>
+        </Elements>
+	</Scene>
+	
+	<!-- All Task definitions will follow after the Scene definition -->
+		
+	<Task sr="taskSCB_00_Initialize_Variables" ve="2"> <!-- Renamed from task2 for clarity -->
+    <cdate>1715328003000</cdate>
+    <edate>1715328003000</edate>
+    <id>2</id> <!-- Keeping original ID for now -->
+    <nme>SCB_00_Initialize_Variables</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>37</code>
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%SCB_Initialized</lhs>
+                <op>12</op> <!-- Is Set -->
+                <rhs></rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>137</code> <!-- Stop Task -->
+        <Int sr="arg0" val="0"/>
+        <Str sr="arg1" ve="3"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>39</code> <!-- For -->
+        <Str sr="arg0" ve="3">%loop_index</Str> <!-- Renamed from %idx -->
+        <Str sr="arg1" ve="3">1:16</Str>
+        <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_Type(%loop_index)</Str>
+        <Str sr="arg1" ve="3">UNSET</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/> <!-- Max Rounding Digits for safety, though not maths -->
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act5" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_Label(%loop_index)</Str>
+        <Str sr="arg1" ve="3">Set Btn %loop_index</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act6" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_Clip(%loop_index)</Str>
+        <Str sr="arg1" ve="3">[Hold to Edit]</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act7" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_SubCount(%loop_index)</Str>
+        <Str sr="arg1" ve="3">0</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="1"/> <!-- Do Maths for 0 -->
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act8" ve="7">
+        <code>40</code> <!-- End For -->
+    </Action>
+    <Action sr="act9" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Initialized</Str>
+        <Str sr="arg1" ve="3">1</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act10" ve="7">
+        <code>548</code>
+        <Str sr="arg0" ve="3">QuickClipBoard Initialized!</Str>
+        <Int sr="arg1" val="0"/> <!-- Long Flash Off -->
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+</Task>
+<Task sr="taskSCB_01_Show_Scene" ve="2"> <!-- Renamed from task1 for clarity -->
+    <cdate>1715328004000</cdate>
+    <edate>1715328004000</edate>
+    <id>1</id> <!-- Keeping original ID -->
+    <nme>SCB_01_Show_Scene</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>130</code> <!-- Perform Task -->
+        <Str sr="arg0" ve="3">SCB_00_Initialize_Variables</Str>
+        <Int sr="arg1" val="10"/>
+        <Str sr="arg2" ve="3"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Int sr="arg5" val="0"/>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>49</code> <!-- Destroy Scene -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>46</code> <!-- Create Scene -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>130</code> <!-- Perform Task -->
+        <Str sr="arg0" ve="3">SCB_03_Update_All_Main_Buttons_Visuals</Str>
+        <Int sr="arg1" val="10"/>
+        <Str sr="arg2" ve="3"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Int sr="arg5" val="0"/>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>47</code> <!-- Show Scene -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Int sr="arg1" val="2"/> <!-- Display As: Overlay, Blocking, Full Window -->
+        <Int sr="arg2" val="100"/>
+        <Int sr="arg3" val="100"/>
+        <Int sr="arg4" val="0"/> <!-- Animation System -->
+        <Int sr="arg5" val="0"/> <!-- Show Exit Button False -->
+        <Int sr="arg6" val="1"/> <!-- Show Over Keyguard True -->
+        <Int sr="arg7" val="1"/> <!-- Continue Task Immediately -->
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+        <Int sr="arg10" val="0"/>
+    </Action>
+</Task>
+
+<Task sr="taskSCB_02_Update_Single_Main_Button_Visual" ve="2"> <!-- Renamed from task3 for clarity -->
+    <cdate>1715328005000</cdate>
+    <edate>1715328005000</edate>
+    <id>3</id> <!-- Keeping original ID -->
+    <nme>SCB_02_Update_Single_Main_Button_Visual</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%button_index</Str> <!-- Renamed from %btn_idx -->
+        <Str sr="arg1" ve="3">%par1</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%button_type</Str> <!-- Renamed from %type -->
+        <Str sr="arg1" ve="3">%SCB_Main_Type(%button_index)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%button_label</Str> <!-- Renamed from %label -->
+        <Str sr="arg1" ve="3">%SCB_Main_Label(%button_index)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>51</code> <!-- Element Text -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3">%button_label</Str>
+        <Str sr="arg4" ve="3"/>
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%button_type</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>UNSET</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act5" ve="7">
+        <code>55</code> <!-- Element BackColour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Str sr="arg2" ve="3">#FFDDDDDD</Str> <!-- Light Grey -->
+        <Str sr="arg3" ve="3"/>
+    </Action>
+    <Action sr="act6" ve="7">
+        <code>54</code> <!-- Element Text Colour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Str sr="arg2" ve="3">#FF888888</Str> <!-- Dark Grey -->
+    </Action>
+    <Action sr="act7" ve="7">
+        <code>43</code> <!-- Else -->
+    </Action>
+    <Action sr="act8" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%button_type</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>CLIP</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act9" ve="7">
+        <code>55</code> <!-- Element BackColour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Str sr="arg2" ve="3">#FF3366FF</Str> <!-- Blue -->
+        <Str sr="arg3" ve="3"/>
+    </Action>
+    <Action sr="act10" ve="7">
+        <code>54</code> <!-- Element Text Colour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Str sr="arg2" ve="3">#FFFFFFFF</Str> <!-- White -->
+    </Action>
+    <Action sr="act11" ve="7">
+        <code>43</code> <!-- Else -->
+    </Action>
+    <Action sr="act12" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%button_type</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>MENU</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act13" ve="7">
+        <code>55</code> <!-- Element BackColour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Str sr="arg2" ve="3">#FF339933</Str> <!-- Green -->
+        <Str sr="arg3" ve="3"/>
+    </Action>
+    <Action sr="act14" ve="7">
+        <code>54</code> <!-- Element Text Colour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Str sr="arg2" ve="3">#FFFFFFFF</Str> <!-- White -->
+    </Action>
+    <Action sr="act15" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act16" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act17" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act18" ve="7">
+        <code>65</code> <!-- Element Visibility -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Int sr="arg2" val="1"/> <!-- Set Visible -->
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+    </Action>
+    <!-- For making button interactive, ensure alpha is full, and its tap/longtap tasks are not guarded by a "submenu active" check -->
+    <Action sr="act19" ve="7">
+        <code>50</code> <!-- Element Value (using it for Alpha, Tasker's Element Alpha is code 176 but this is more general) -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%button_index</Str>
+        <Int sr="arg2" val="255"/> <!-- Value for alpha (assuming this sets alpha) -->
+    </Action>
+</Task>
+
+<Task sr="taskSCB_03_Update_All_Main_Buttons_Visuals" ve="2"> <!-- Renamed from task4 -->
+    <cdate>1715328006000</cdate>
+    <edate>1715328006000</edate>
+    <id>4</id> <!-- Keeping original ID -->
+    <nme>SCB_03_Update_All_Main_Buttons_Visuals</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>39</code> <!-- For -->
+        <Str sr="arg0" ve="3">%loop_index</Str> <!-- Renamed from %idx -->
+        <Str sr="arg1" ve="3">1:16</Str>
+        <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>130</code> <!-- Perform Task -->
+        <Str sr="arg0" ve="3">SCB_02_Update_Single_Main_Button_Visual</Str>
+        <Int sr="arg1" val="10"/>
+        <Str sr="arg2" ve="3">%loop_index</Str>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Int sr="arg5" val="0"/>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>65</code> <!-- Element Visibility -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn%loop_index</Str> <!-- Ensuring SubBtns are hidden by default -->
+        <Int sr="arg2" val="0"/> <!-- Set Hidden -->
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>40</code> <!-- End For -->
+    </Action>
+</Task>
+
+<Task sr="taskSCB_10_Main_Btn_Tap" ve="2"> <!-- Renamed from task5 -->
+    <cdate>1715328007000</cdate>
+    <edate>1715328007000</edate>
+    <id>5</id> <!-- Keeping original ID -->
+    <nme>SCB_10_Main_Btn_Tap</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>598</code> <!-- Variable Search Replace -->
+        <Str sr="arg0" ve="3">%par1</Str>
+        <Str sr="arg1" ve="3">MainBtn</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Str sr="arg5" ve="3">%tapped_idx_array</Str> <!-- Store in array -->
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%tapped_index</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%tapped_idx_array(1)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%button_type</Str> <!-- Renamed from %type -->
+        <Str sr="arg1" ve="3">%SCB_Main_Type(%tapped_index)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%button_type</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>CLIP</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%clip_text_value</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%SCB_Main_Clip(%tapped_index)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act5" ve="7">
+        <code>105</code> <!-- Set Clipboard -->
+        <Str sr="arg0" ve="3">%clip_text_value</Str>
+        <Int sr="arg1" val="0"/>
+        <Img sr="arg2" ve="2"/>
+        <Int sr="arg3" val="0"/>
+    </Action>
+    <Action sr="act6" ve="7">
+        <code>548</code> <!-- Flash -->
+        <Str sr="arg0" ve="3">Copied: %clip_text_value</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+    <Action sr="act7" ve="7">
+        <code>43</code> <!-- Else -->
+    </Action>
+    <Action sr="act8" ve="7"> <!-- Continuing SCB_10_Main_Btn_Tap -->
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%button_type</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>MENU</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act9" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%submenu_count</Str> <!-- Renamed from %sub_count -->
+        <Str sr="arg1" ve="3">%SCB_Main_SubCount(%tapped_index)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act10" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%submenu_count</lhs>
+                <op>8</op> <!-- Numeric Equals -->
+                <rhs>0</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act11" ve="7">
+        <code>548</code> <!-- Flash -->
+        <Str sr="arg0" ve="3">No submenu items. Long press to edit.</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+    <Action sr="act12" ve="7">
+        <code>137</code> <!-- Stop Task -->
+        <Int sr="arg0" val="0"/>
+        <Str sr="arg1" ve="3"/>
+    </Action>
+    <Action sr="act13" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act14" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Active_Menu_Origin_Idx</Str>
+        <Str sr="arg1" ve="3">%tapped_index</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="1"/> <!-- Append (though not strictly needed here as it's not array) -->
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <!-- Hide/Blur Main Buttons & Show Submenu Layer -->
+    <Action sr="act15" ve="7">
+        <code>39</code> <!-- For -->
+        <Str sr="arg0" ve="3">%loop_index_visual</Str> <!-- Renamed %idx from plan -->
+        <Str sr="arg1" ve="3">1:16</Str>
+        <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act16" ve="7">
+        <code>50</code> <!-- Element Value for Alpha -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">MainBtn%loop_index_visual</Str>
+        <Int sr="arg2" val="100"/> <!-- Alpha value -->
+    </Action>
+    <!-- To make MainBtns non-interactive, their tap tasks should check %SCB_Active_Menu_Origin_Idx -->
+    <!-- This loop hides all SubBtns first to clear any previous submenu state -->
+    <Action sr="act17" ve="7">
+        <code>65</code> <!-- Element Visibility -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn%loop_index_visual</Str>
+        <Int sr="arg2" val="0"/> <!-- Set Hidden -->
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act18" ve="7">
+        <code>40</code> <!-- End For -->
+    </Action>
+    <Action sr="act19" ve="7">
+        <code>65</code> <!-- Element Visibility -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn1</Str>
+        <Int sr="arg2" val="1"/> <!-- Set Visible -->
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act20" ve="7">
+        <code>51</code> <!-- Element Text -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn1</Str>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3">⬅ Back</Str>
+        <Str sr="arg4" ve="3"/>
+    </Action>
+    <Action sr="act21" ve="7">
+        <code>55</code> <!-- Element BackColour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn1</Str>
+        <Str sr="arg2" ve="3">#FFFF9900</Str> <!-- Orange -->
+        <Str sr="arg3" ve="3"/>
+    </Action>
+    <Action sr="act22" ve="7">
+        <code>54</code> <!-- Element Text Colour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn1</Str>
+        <Str sr="arg2" ve="3">#FFFFFFFF</Str> <!-- White -->
+    </Action>
+    <Action sr="act23" ve="7">
+        <code>39</code> <!-- For -->
+        <Str sr="arg0" ve="3">%sub_loop_idx</Str> <!-- Renamed from %sub_idx -->
+        <Str sr="arg1" ve="3">1:%submenu_count</Str>
+        <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act24" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%actual_sub_button_pos</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%sub_loop_idx+1</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="1"/> <!-- Do Maths -->
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act25" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%actual_sub_button_pos</lhs>
+                <op>7</op> <!-- Greater Than -->
+                <rhs>16</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act26" ve="7">
+        <code>40</code> <!-- End For (from original plan's Break Loop logic) -->
+        <se>false</se> <!-- This makes End For act like a break here -->
+    </Action>
+    <Action sr="act27" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act28" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%submenu_label</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%SCB_Menu(%tapped_index)_Sub_Label(%sub_loop_idx)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act29" ve="7">
+        <code>65</code> <!-- Element Visibility -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn%actual_sub_button_pos</Str>
+        <Int sr="arg2" val="1"/> <!-- Set Visible -->
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act30" ve="7">
+        <code>51</code> <!-- Element Text -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn%actual_sub_button_pos</Str>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3">%submenu_label</Str>
+        <Str sr="arg4" ve="3"/>
+    </Action>
+    <Action sr="act31" ve="7">
+        <code>55</code> <!-- Element BackColour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn%actual_sub_button_pos</Str>
+        <Str sr="arg2" ve="3">#FF6699FF</Str> <!-- Light Blue -->
+        <Str sr="arg3" ve="3"/>
+    </Action>
+    <Action sr="act32" ve="7">
+        <code>54</code> <!-- Element Text Colour -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn%actual_sub_button_pos</Str>
+        <Str sr="arg2" ve="3">#FFFFFFFF</Str> <!-- White -->
+    </Action>
+    <Action sr="act33" ve="7">
+        <code>40</code> <!-- End For -->
+    </Action>
+    <Action sr="act34" ve="7">
+        <code>43</code> <!-- Else -->
+    </Action>
+    <Action sr="act35" ve="7">
+        <code>37</code> <!-- If (Original plan's "Else If %type eq UNSET") -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%button_type</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>UNSET</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act36" ve="7">
+        <code>548</code> <!-- Flash -->
+        <Str sr="arg0" ve="3">Button %tapped_index not set. Long press.</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+    <Action sr="act37" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act38" ve="7">
+        <code>38</code> <!-- End If (for CLIP type) -->
+    </Action>
+    <Action sr="act39" ve="7">
+        <code>38</code> <!-- End If (for MENU type) -->
+    </Action>
+</Task>
+<Task sr="taskSCB_11_Main_Btn_LongTap" ve="2"> <!-- Renamed from task6 -->
+    <cdate>1715328008000</cdate>
+    <edate>1715328008000</edate>
+    <id>6</id> <!-- Keeping original ID -->
+    <nme>SCB_11_Main_Btn_LongTap</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>598</code> <!-- Variable Search Replace -->
+        <Str sr="arg0" ve="3">%par1</Str>
+        <Str sr="arg1" ve="3">MainBtn</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Str sr="arg5" ve="3">%config_idx_array</Str>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>547</code> <!-- Variable Set -->
+        <Str sr="arg0" ve="3">%SCB_Current_Main_Config_Idx</Str>
+        <Str sr="arg1" ve="3">%config_idx_array(1)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/> <!-- Append Off -->
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>378</code> <!-- List Dialog -->
+        <Bundle sr="arg0">
+            <Vals sr="val"/>
+        </Bundle>
+        <Int sr="arg1" val="0"/> <!-- Mode: Single Choice -->
+        <Str sr="arg2" ve="3">Configure Button %SCB_Current_Main_Config_Idx</Str>
+        <Str sr="arg3" ve="3">Clip,Menu,Cancel</Str>
+        <Str sr="arg4" ve="3"/> <!-- Selected Items -->
+        <Str sr="arg5" ve="3"/> <!-- Long Click Task -->
+        <Str sr="arg6" ve="3"/> <!-- Button 1 -->
+        <Str sr="arg7" ve="3"/> <!-- Button 2 -->
+        <Str sr="arg8" ve="3"/> <!-- Button 3 -->
+        <Int sr="arg9" val="60"/> <!-- Close After -->
+        <Int sr="arg10" val="0"/> <!-- Use HTML -->
+        <Int sr="arg11" val="0"/> <!-- First Visible Index -->
+        <Int sr="arg12" val="0"/> <!-- Hide Filter -->
+        <Str sr="arg13" ve="3">Choose button type:</Str>
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%ld_selected</lhs>
+                <op>13</op> <!-- Is Not Set -->
+                <rhs></rhs>
+            </Condition>
+            <Condition sr="c1" ve="3" op="OR"> <!-- Or -->
+                <lhs>%ld_selected</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>Cancel</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>137</code> <!-- Stop Task -->
+        <Int sr="arg0" val="0"/>
+        <Str sr="arg1" ve="3"/>
+    </Action>
+    <Action sr="act5" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act6" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%ld_selected</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>Clip</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act7" ve="7">
+        <code>130</code> <!-- Perform Task -->
+        <Str sr="arg0" ve="3">SCB_12_Config_As_Clip</Str>
+        <Int sr="arg1" val="10"/>
+        <Str sr="arg2" ve="3"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Int sr="arg5" val="0"/>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+    </Action>
+    <Action sr="act8" ve="7">
+        <code>43</code> <!-- Else -->
+    </Action>
+    <Action sr="act9" ve="7">
+        <code>37</code> <!-- If -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%ld_selected</lhs>
+                <op>0</op> <!-- Equals String -->
+                <rhs>Menu</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act10" ve="7">
+        <code>130</code> <!-- Perform Task -->
+        <Str sr="arg0" ve="3">SCB_13_Config_As_Menu</Str>
+        <Int sr="arg1" val="10"/>
+        <Str sr="arg2" ve="3"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Int sr="arg5" val="0"/>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+    </Action>
+    <Action sr="act11" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act12" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act13" ve="7">
+        <code>130</code> <!-- Perform Task -->
+        <Str sr="arg0" ve="3">SCB_02_Update_Single_Main_Button_Visual</Str>
+        <Int sr="arg1" val="10"/>
+        <Str sr="arg2" ve="3">%SCB_Current_Main_Config_Idx</Str>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Int sr="arg5" val="0"/>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+    </Action>
+</Task>
+<Task sr="taskSCB_12_Config_As_Clip" ve="2"> <!-- Renamed from task7 -->
+    <cdate>1715328009000</cdate>
+    <edate>1715328009000</edate>
+    <id>7</id> <!-- Keeping original ID -->
+    <nme>SCB_12_Config_As_Clip</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>547</code> <!-- Variable Set -->
+        <Str sr="arg0" ve="3">%config_button_idx</Str> <!-- Renamed from %idx -->
+        <Str sr="arg1" ve="3">%SCB_Current_Main_Config_Idx</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%current_label_val</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%SCB_Main_Label(%config_button_idx)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%current_clip_val</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%SCB_Main_Clip(%config_button_idx)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>360</code> <!-- Input Dialog -->
+        <Bundle sr="arg0">
+            <Vals sr="val"/>
+        </Bundle>
+        <Str sr="arg1" ve="3">Set Clip Label</Str>
+        <Str sr="arg2" ve="3">Enter button label for Button %config_button_idx:</Str>
+        <Str sr="arg3" ve="3">%current_label_val</Str>
+        <Int sr="arg4" val="60"/>
+        <Str sr="arg5" ve="3"/> <!-- Input Type: Normal -->
+        <Int sr="arg6" val="0"/>
+        <Int sr="arg7" val="1"/> <!-- Pre-Select -->
+        <Str sr="arg8" ve="3">%new_label_val</Str> <!-- Output Variable Name -->
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>37</code> <!-- If %new_label_val Is Not Set (user cancelled) -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%new_label_val</lhs>
+                <op>13</op> <!-- Is Not Set -->
+                <rhs></rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act5" ve="7">
+        <code>137</code> <!-- Stop Task -->
+        <Int sr="arg0" val="0"/>
+        <Str sr="arg1" ve="3"/>
+    </Action>
+    <Action sr="act6" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act7" ve="7">
+        <code>360</code> <!-- Input Dialog -->
+        <Bundle sr="arg0">
+            <Vals sr="val"/>
+        </Bundle>
+        <Str sr="arg1" ve="3">Set Clip Text</Str>
+        <Str sr="arg2" ve="3">Enter text to copy for Button %config_button_idx:</Str>
+        <Str sr="arg3" ve="3">%current_clip_val</Str>
+        <Int sr="arg4" val="60"/>
+        <Str sr="arg5" ve="3"/> <!-- Input Type: Normal -->
+        <Int sr="arg6" val="0"/>
+        <Int sr="arg7" val="1"/> <!-- Pre-Select -->
+        <Str sr="arg8" ve="3">%new_clip_val</Str> <!-- Output Variable Name -->
+    </Action>
+    <!-- Allow Empty was in plan, %input (default for Input Dialog) can be empty if user clears it -->
+    <Action sr="act8" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_Label(%config_button_idx)</Str>
+        <Str sr="arg1" ve="3">%new_label_val</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/> <!-- Append Off -->
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act9" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_Clip(%config_button_idx)</Str>
+        <Str sr="arg1" ve="3">%new_clip_val</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act10" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_Type(%config_button_idx)</Str>
+        <Str sr="arg1" ve="3">CLIP</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act11" ve="7">
+        <code>548</code> <!-- Flash -->
+        <Str sr="arg0" ve="3">Button %config_button_idx set as Clip.</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+</Task>
+
+<Task sr="taskSCB_13_Config_As_Menu" ve="2"> <!-- Renamed from task8 -->
+    <cdate>1715328010000</cdate>
+    <edate>1715328010000</edate>
+    <id>8</id> <!-- Keeping original ID -->
+    <nme>SCB_13_Config_As_Menu</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%config_button_idx</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%SCB_Current_Main_Config_Idx</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%current_label_val</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%SCB_Main_Label(%config_button_idx)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%current_sub_items_count</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%SCB_Main_SubCount(%config_button_idx)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2a" ve="7">
+        <code>37</code> <!-- If %current_sub_items_count is not set -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%current_sub_items_count</lhs>
+                <op>13</op> <!-- Is Not Set -->
+                <rhs></rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act2b" ve="7">
+        <code>547</code> <!-- Set it to 0 -->
+        <Str sr="arg0" ve="3">%current_sub_items_count</Str>
+        <Str sr="arg1" ve="3">0</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="1"/> <!-- Do Maths -->
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2c" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>360</code> <!-- Input Dialog for new label -->
+        <Bundle sr="arg0">
+            <Vals sr="val"/>
+        </Bundle>
+        <Str sr="arg1" ve="3">Set Menu Label</Str>
+        <Str sr="arg2" ve="3">Enter button label for Button %config_button_idx:</Str>
+        <Str sr="arg3" ve="3">%current_label_val</Str>
+        <Int sr="arg4" val="60"/>
+        <Str sr="arg5" ve="3"/>
+        <Int sr="arg6" val="0"/>
+        <Int sr="arg7" val="1"/>
+        <Str sr="arg8" ve="3">%new_label_val</Str>
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>37</code> <!-- If %new_label_val Is Not Set -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%new_label_val</lhs>
+                <op>13</op>
+                <rhs></rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act5" ve="7">
+        <code>137</code> <!-- Stop Task -->
+        <Int sr="arg0" val="0"/>
+        <Str sr="arg1" ve="3"/>
+    </Action>
+    <Action sr="act6" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act7" ve="7">
+        <code>360</code> <!-- Input Dialog for submenu count -->
+        <Bundle sr="arg0">
+            <Vals sr="val"/>
+        </Bundle>
+        <Str sr="arg1" ve="3">Set Submenu Size</Str>
+        <Str sr="arg2" ve="3">Number of submenu items (0-15):</Str>
+        <Str sr="arg3" ve="3">%current_sub_items_count</Str>
+        <Int sr="arg4" val="60"/>
+        <Str sr="arg5" ve="3">2</Str> <!-- Input Type: Numeric (Integer) -->
+        <Int sr="arg6" val="0"/>
+        <Int sr="arg7" val="1"/>
+        <Str sr="arg8" ve="3">%new_sub_items_count</Str>
+    </Action>
+    <Action sr="act8" ve="7">
+        <code>37</code> <!-- If %new_sub_items_count is not set OR < 0 OR > 15 -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%new_sub_items_count</lhs>
+                <op>13</op>
+                <rhs></rhs>
+            </Condition>
+            <Condition sr="c1" ve="3" op="OR">
+                <lhs>%new_sub_items_count</lhs>
+                <op>6</op> <!-- Less Than -->
+                <rhs>0</rhs>
+            </Condition>
+            <Condition sr="c2" ve="3" op="OR">
+                <lhs>%new_sub_items_count</lhs>
+                <op>7</op> <!-- Greater Than -->
+                <rhs>15</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act9" ve="7">
+        <code>548</code> <!-- Flash -->
+        <Str sr="arg0" ve="3">Invalid number (0-15).</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+    <Action sr="act10" ve="7">
+        <code>137</code> <!-- Stop Task -->
+        <Int sr="arg0" val="0"/>
+        <Str sr="arg1" ve="3"/>
+    </Action>
+    <Action sr="act11" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act12" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_Label(%config_button_idx)</Str>
+        <Str sr="arg1" ve="3">%new_label_val</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act13" ve="7">
+        <code>37</code> <!-- If new_sub_items_count > current_sub_items_count -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%new_sub_items_count</lhs>
+                <op>7</op> <!-- Greater Than -->
+                <rhs>%current_sub_items_count</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act14" ve="7">
+        <code>547</code> <!-- Variable Set %loop_start_idx -->
+        <Str sr="arg0" ve="3">%loop_start_idx</Str>
+        <Str sr="arg1" ve="3">%current_sub_items_count+1</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="1"/> <!-- Do Maths -->
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act15" ve="7">
+        <code>39</code> <!-- For %config_sub_index from %loop_start_idx to %new_sub_items_count -->
+        <Str sr="arg0" ve="3">%config_sub_index</Str> <!-- Renamed from %s_idx -->
+        <Str sr="arg1" ve="3">%loop_start_idx:%new_sub_items_count</Str>
+        <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act16" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Menu(%config_button_idx)_Sub_Label(%config_sub_index)</Str>
+        <Str sr="arg1" ve="3">Sub %config_sub_index</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act17" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Menu(%config_button_idx)_Sub_Clip(%config_sub_index)</Str>
+        <Str sr="arg1" ve="3">[Hold to Edit]</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act18" ve="7">
+        <code>40</code> <!-- End For -->
+    </Action>
+    <Action sr="act19" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act20" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_SubCount(%config_button_idx)</Str>
+        <Str sr="arg1" ve="3">%new_sub_items_count</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="1"/> <!-- Do Maths -->
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act21" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Main_Type(%config_button_idx)</Str>
+        <Str sr="arg1" ve="3">MENU</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act22" ve="7">
+        <code>548</code> <!-- Flash -->
+        <Str sr="arg0" ve="3">Button %config_button_idx set as Menu with %new_sub_items_count items.</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+    <!-- Simulate tap to open submenu for immediate configuration -->
+    <Action sr="act23" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%element_to_tap</Str> <!-- Renamed from %dummy_element_name -->
+        <Str sr="arg1" ve="3">MainBtn%config_button_idx</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act24" ve="7">
+        <code>130</code> <!-- Perform Task SCB_10_Main_Btn_Tap -->
+        <Str sr="arg0" ve="3">SCB_10_Main_Btn_Tap</Str>
+        <Int sr="arg1"><var>%priority</var></Int> <!-- Use %priority or default -->
+        <Str sr="arg2" ve="3">%element_to_tap</Str>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Int sr="arg5" val="0"/>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+    </Action>
+</Task>
+<Task sr="taskSCB_20_Sub_Btn_Tap" ve="2"> <!-- New Task ID 9 -->
+    <cdate>1715328011000</cdate>
+    <edate>1715328011000</edate>
+    <id>9</id>
+    <nme>SCB_20_Sub_Btn_Tap</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>598</code> <!-- Variable Search Replace -->
+        <Str sr="arg0" ve="3">%par1</Str>
+        <Str sr="arg1" ve="3">SubBtn</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Str sr="arg5" ve="3">%tapped_sub_pos_arr</Str>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>547</code> <!-- Variable Set -->
+        <Str sr="arg0" ve="3">%tapped_sub_position</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%tapped_sub_pos_arr(1)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%origin_main_menu_idx</Str> <!-- Renamed -->
+        <Str sr="arg1" ve="3">%SCB_Active_Menu_Origin_Idx</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>37</code> <!-- If %tapped_sub_position == 1 (Back button) -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%tapped_sub_position</lhs>
+                <op>8</op> <!-- Numeric Equals -->
+                <rhs>1</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>39</code> <!-- For %loop_idx_visual from 1 to 16 -->
+        <Str sr="arg0" ve="3">%loop_idx_visual</Str>
+        <Str sr="arg1" ve="3">1:16</Str>
+        <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act5" ve="7">
+        <code>65</code> <!-- Element Visibility: Hide SubBtn -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn%loop_idx_visual</Str>
+        <Int sr="arg2" val="0"/> <!-- Set Hidden -->
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act6" ve="7">
+        <code>40</code> <!-- End For -->
+    </Action>
+    <Action sr="act7" ve="7">
+        <code>130</code> <!-- Perform Task to restore main buttons -->
+        <Str sr="arg0" ve="3">SCB_03_Update_All_Main_Buttons_Visuals</Str>
+        <Int sr="arg1" val="10"/>
+        <Str sr="arg2" ve="3"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Int sr="arg5" val="0"/>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+        <Int sr="arg8" val="0"/>
+        <Int sr="arg9" val="0"/>
+    </Action>
+    <Action sr="act8" ve="7">
+        <code>549</code> <!-- Variable Clear %SCB_Active_Menu_Origin_Idx -->
+        <Str sr="arg0" ve="3">%SCB_Active_Menu_Origin_Idx</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+    </Action>
+    <Action sr="act9" ve="7">
+        <code>43</code> <!-- Else (it's an actual submenu item) -->
+    </Action>
+    <Action sr="act10" ve="7">
+        <code>547</code> <!-- Variable Set %sub_item_actual_idx = %tapped_sub_position - 1 -->
+        <Str sr="arg0" ve="3">%sub_item_actual_idx</Str>
+        <Str sr="arg1" ve="3">%tapped_sub_position-1</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="1"/> <!-- Do Maths -->
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act11" ve="7">
+        <code>547</code> <!-- Variable Set %clip_text_value -->
+        <Str sr="arg0" ve="3">%clip_text_value</Str>
+        <Str sr="arg1" ve="3">%SCB_Menu(%origin_main_menu_idx)_Sub_Clip(%sub_item_actual_idx)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act12" ve="7">
+        <code>105</code> <!-- Set Clipboard -->
+        <Str sr="arg0" ve="3">%clip_text_value</Str>
+        <Int sr="arg1" val="0"/>
+        <Img sr="arg2" ve="2"/>
+        <Int sr="arg3" val="0"/>
+    </Action>
+    <Action sr="act13" ve="7">
+        <code>548</code> <!-- Flash -->
+        <Str sr="arg0" ve="3">Copied: %clip_text_value</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+    <Action sr="act14" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+</Task>
+
+<Task sr="taskSCB_21_Sub_Btn_LongTap" ve="2"> <!-- New Task ID 10 -->
+    <cdate>1715328012000</cdate>
+    <edate>1715328012000</edate>
+    <id>10</id>
+    <nme>SCB_21_Sub_Btn_LongTap</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+        <code>598</code> <!-- Variable Search Replace -->
+        <Str sr="arg0" ve="3">%par1</Str>
+        <Str sr="arg1" ve="3">SubBtn</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Str sr="arg5" ve="3">%tapped_sub_pos_arr</Str>
+        <Int sr="arg6" val="0"/>
+        <Str sr="arg7" ve="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+        <code>547</code> <!-- Variable Set -->
+        <Str sr="arg0" ve="3">%tapped_sub_position</Str>
+        <Str sr="arg1" ve="3">%tapped_sub_pos_arr(1)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act2" ve="7">
+        <code>37</code> <!-- If %tapped_sub_position == 1 (Back button) -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%tapped_sub_position</lhs>
+                <op>8</op> <!-- Numeric Equals -->
+                <rhs>1</rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act3" ve="7">
+        <code>137</code> <!-- Stop Task -->
+        <Int sr="arg0" val="0"/>
+        <Str sr="arg1" ve="3"/>
+    </Action>
+    <Action sr="act4" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act5" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%origin_main_menu_idx</Str>
+        <Str sr="arg1" ve="3">%SCB_Active_Menu_Origin_Idx</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act6" ve="7">
+        <code>547</code> <!-- Variable Set %sub_item_actual_idx = %tapped_sub_position - 1 -->
+        <Str sr="arg0" ve="3">%sub_item_actual_idx</Str>
+        <Str sr="arg1" ve="3">%tapped_sub_position-1</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="1"/> <!-- Do Maths -->
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act7" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%current_sub_label</Str>
+        <Str sr="arg1" ve="3">%SCB_Menu(%origin_main_menu_idx)_Sub_Label(%sub_item_actual_idx)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act8" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%current_sub_clip</Str>
+        <Str sr="arg1" ve="3">%SCB_Menu(%origin_main_menu_idx)_Sub_Clip(%sub_item_actual_idx)</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="0"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act9" ve="7">
+        <code>360</code> <!-- Input Dialog for new sub label -->
+        <Bundle sr="arg0"><Vals sr="val"/></Bundle>
+        <Str sr="arg1" ve="3">Set Sub Label (Menu %origin_main_menu_idx, Item %sub_item_actual_idx)</Str>
+        <Str sr="arg2" ve="3">Enter button label:</Str>
+        <Str sr="arg3" ve="3">%current_sub_label</Str>
+        <Int sr="arg4" val="60"/>
+        <Str sr="arg5" ve="3"/>
+        <Int sr="arg6" val="0"/>
+        <Int sr="arg7" val="1"/>
+        <Str sr="arg8" ve="3">%new_sub_label</Str>
+    </Action>
+    <Action sr="act10" ve="7">
+        <code>37</code> <!-- If %new_sub_label Is Not Set -->
+        <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+                <lhs>%new_sub_label</lhs>
+                <op>13</op>
+                <rhs></rhs>
+            </Condition>
+        </ConditionList>
+    </Action>
+    <Action sr="act11" ve="7">
+        <code>137</code> <!-- Stop Task -->
+        <Int sr="arg0" val="0"/>
+        <Str sr="arg1" ve="3"/>
+    </Action>
+    <Action sr="act12" ve="7">
+        <code>38</code> <!-- End If -->
+    </Action>
+    <Action sr="act13" ve="7">
+        <code>360</code> <!-- Input Dialog for new sub clip text -->
+        <Bundle sr="arg0"><Vals sr="val"/></Bundle>
+        <Str sr="arg1" ve="3">Set Sub Clip Text</Str>
+        <Str sr="arg2" ve="3">Enter clipboard text:</Str>
+        <Str sr="arg3" ve="3">%current_sub_clip</Str>
+        <Int sr="arg4" val="60"/>
+        <Str sr="arg5" ve="3"/>
+        <Int sr="arg6" val="0"/>
+        <Int sr="arg7" val="1"/>
+        <Str sr="arg8" ve="3">%new_sub_clip</Str>
+    </Action>
+    <Action sr="act14" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Menu(%origin_main_menu_idx)_Sub_Label(%sub_item_actual_idx)</Str>
+        <Str sr="arg1" ve="3">%new_sub_label</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act15" ve="7">
+        <code>547</code>
+        <Str sr="arg0" ve="3">%SCB_Menu(%origin_main_menu_idx)_Sub_Clip(%sub_item_actual_idx)</Str>
+        <Str sr="arg1" ve="3">%new_sub_clip</Str>
+        <Int sr="arg2" val="0"/>
+        <Int sr="arg3" val="0"/>
+        <Int sr="arg4" val="1"/>
+        <Int sr="arg5" val="3"/>
+        <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act16" ve="7">
+        <code>548</code> <!-- Flash -->
+        <Str sr="arg0" ve="3">Submenu item updated.</Str>
+        <Int sr="arg1" val="0"/>
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3"/>
+        <Str sr="arg4" ve="3"/>
+        <Str sr="arg5" ve="3"/>
+        <Str sr="arg6" ve="3"/>
+        <Str sr="arg7" ve="3"/>
+        <Str sr="arg8" ve="3"/>
+        <Int sr="arg9" val="1"/>
+        <Str sr="arg10" ve="3"/>
+        <Int sr="arg11" val="1"/>
+        <Int sr="arg12" val="0"/>
+        <Str sr="arg13" ve="3"/>
+        <Int sr="arg14" val="0"/>
+        <Str sr="arg15" ve="3"/>
+    </Action>
+    <Action sr="act17" ve="7">
+        <code>51</code> <!-- Element Text: Update the specific SubBtn label -->
+        <Str sr="arg0" ve="3">SCB_Scene</Str>
+        <Str sr="arg1" ve="3">SubBtn%tapped_sub_position</Str> <!-- Use %par1 directly if it's just the element name -->
+        <Int sr="arg2" val="0"/>
+        <Str sr="arg3" ve="3">%new_sub_label</Str>
+        <Str sr="arg4" ve="3"/>
+    </Action>
+</Task>
+
+</TaskerData>
